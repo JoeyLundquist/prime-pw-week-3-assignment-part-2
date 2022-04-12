@@ -15,7 +15,7 @@ for (let i=0; i<4; i++) {
 // You would change the conditional i<4 to i<=5.
 console.log('count from 0 to 5');
 for(let i=0; i<=5; i++){
-  console.log(i)
+  console.log(i);
 }
 
 // 1.b. TODO: Write a for loop to console.log the numbers from 3 to 5
@@ -23,7 +23,7 @@ for(let i=0; i<=5; i++){
 //Start by making i=3 and condition if i<=5 keeping the increment statement.
 console.log('count from 3 to 5');
 for(let i=3; i<=5; i++){
-  console.log(i)
+  console.log(i);
 }
 
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
@@ -31,14 +31,14 @@ for(let i=3; i<=5; i++){
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
 for(let i=1; i<=10; i++){
   if(i %2 === 0){
-    console.log(i)
+    console.log(i);
   }
 }
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
 for(i=5; i>=0; i--){
-  console.log(i)
+  console.log(i);
 }
 
 
@@ -49,7 +49,7 @@ let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
 console.log('Some stars:');
 for(i=0; i<stars.length; i++){
-  console.log(stars[i])
+  console.log(stars[i]);
 }
 
 // 3. While loops  
@@ -68,7 +68,7 @@ console.log('count from 0 to 5');
 let count = 0;
 while(count<=5){
   console.log(count);
-  count++
+  count++;
 }
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
