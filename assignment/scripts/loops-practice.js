@@ -12,6 +12,7 @@ for (let i=0; i<4; i++) {
 
 // 1.a. TODO: Write a for loop to console.log the numbers from 0 to 5 
 //   - Which part of the example loop do you need to change to do this?
+
 // You would change the conditional i<4 to i<=5.
 console.log('count from 0 to 5');
 for(let i=0; i<=5; i++){
@@ -20,6 +21,7 @@ for(let i=0; i<=5; i++){
 
 // 1.b. TODO: Write a for loop to console.log the numbers from 3 to 5
 //   - Which part of the example loop do you need to change to do this?
+
 //Start by making i=3 and condition if i<=5 keeping the increment statement.
 console.log('count from 3 to 5');
 for(let i=3; i<=5; i++){
@@ -28,6 +30,8 @@ for(let i=3; i<=5; i++){
 
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?
+
+//Start by changing i=1, then i<=10, Also adding an if statement to see if number is divisible by 2 before we log the number.
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
 for(let i=1; i<=10; i++){
   if(i %2 === 0){
